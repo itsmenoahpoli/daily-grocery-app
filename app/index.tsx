@@ -11,8 +11,8 @@ export default function () {
 
   const onLoadRedirect = () => {
     setTimeout(() => {
-      router.push("/auth/login");
-    }, 2000);
+      router.push("/auth/register");
+    }, 200);
   };
 
   React.useLayoutEffect(() => {
